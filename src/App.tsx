@@ -1,12 +1,7 @@
-import "./App.css";
-import Register from "./components/Register";
+import UserProvider from "./users/components/UsersProvider";
 
 function App() {
-    return (
-        <div>
-            <Register />
-        </div>
-    );
+  return <UserProvider />;
 }
 
 export default App;
